@@ -8,6 +8,10 @@
         <version>2.6.7</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+    <resource>
+        <directory>src/main/resources</directory>
+        <filtering>true</filtering>
+    </resource>
     <groupId>com.portfolio</groupId>
     <artifactId>ms</artifactId>
     <version>0.0.1-SNAPSHOT</version>
