@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.portfolio.mgb.Security;
+package com.portfolio.ms.Security;
 
-import com.portfolio.mgb.Security.Service.UserDetailsImpl;
-import com.portfolio.mgb.Security.jwt.JwtEntryPoint;
-import com.portfolio.mgb.Security.jwt.JwtTokenFilter;
+import com.portfolio.ms.Security.Service.UserDetailsImpl;
+import com.portfolio.ms.Security.jwt.JwtEntryPoint;
+import com.portfolio.ms.Security.jwt.JwtTokenFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
