@@ -3,17 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.portfolio.ms.Security.Repository;
+package com.portfolio.ms.Repository;
 
-import com.portfolio.ms.Security.Entity.Usuario;
+import com.portfolio.ms.Entity.Educacion;
 import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface iUsuarioRepository extends JpaRepository<Usuario, Integer>{
-    Optional<Usuario> findByNombreUsuario(String nombreUsuario);
-    
-    boolean existsByNombreUsuario(String nombreUsuario);
-    boolean existsByEmail(String email);
+public interface REducacion extends JpaRepository<Educacion, Integer>{
+    public Optional<Educacion> findByNombreE(String nombreE);
+    public boolean existsByNombreE(String nombreE);
 }

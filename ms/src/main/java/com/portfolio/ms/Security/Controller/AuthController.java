@@ -3,20 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.portfolio.mgb.Security.Controller;
+package com.portfolio.ms.Security.Controller;
 
-import com.portfolio.mgb.Security.Dto.JwtDto;
-import com.portfolio.mgb.Security.Dto.LoginUsuario;
-import com.portfolio.mgb.Security.Dto.NuevoUsuario;
-import com.portfolio.mgb.Security.Entity.Rol;
-import com.portfolio.mgb.Security.Entity.Usuario;
-import com.portfolio.mgb.Security.Enums.RolNombre;
-import com.portfolio.mgb.Security.Service.RolService;
-import com.portfolio.mgb.Security.Service.UsuarioService;
-import com.portfolio.mgb.Security.jwt.JwtProvider;
+import com.portfolio.ms.Security.Dto.JwtDto;
+import com.portfolio.ms.Security.Dto.LoginUsuario;
+import com.portfolio.ms.Security.Dto.NuevoUsuario;
+import com.portfolio.ms.Security.Entity.Rol;
+import com.portfolio.ms.Security.Entity.Usuario;
+import com.portfolio.ms.Security.Enums.RolNombre;
+import com.portfolio.ms.Security.Service.RolService;
+import com.portfolio.ms.Security.Service.UsuarioService;
+import com.portfolio.ms.Security.jwt.JwtProvider;
 import java.util.HashSet;
 import java.util.Set;
-import javax.validation.Valid;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -35,7 +35,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = {"https://mgbfrontend.web.app","http://localhost:4200"})
+@CrossOrigin(origins = {"https://msfrontend.web.app","http://localhost:4200"})
 public class AuthController {
     @Autowired
     PasswordEncoder passwordEncoder;

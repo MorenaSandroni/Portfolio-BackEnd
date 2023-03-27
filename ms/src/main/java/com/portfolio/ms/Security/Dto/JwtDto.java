@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.portfolio.mgb.Security.Dto;
+package com.portfolio.ms.Security.Dto;
 
 import java.util.Collection;
 import org.springframework.security.core.GrantedAuthority;

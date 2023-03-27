@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.portfolio.mgb.Security.jwt;
+package com.portfolio.ms.Security.jwt;
 
-import com.portfolio.mgb.Security.Entity.UsuarioPrincipal;
+import com.portfolio.ms.Security.Entity.UsuarioPrincipal;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.MalformedJwtException;

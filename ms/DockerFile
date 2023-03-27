@@ -1,0 +1,3 @@
+from amazoncorretto:11-alpine-jdk
+MAINTAINER Morena
+COPY 
