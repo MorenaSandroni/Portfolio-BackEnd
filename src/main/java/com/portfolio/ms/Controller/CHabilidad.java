@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/explab")
+@RequestMapping("/hab")
 @CrossOrigin(origins = {"https://portfolio-ms-8c5f2.firebaseapp.com"})
 public class CHabilidad {
     @Autowired
