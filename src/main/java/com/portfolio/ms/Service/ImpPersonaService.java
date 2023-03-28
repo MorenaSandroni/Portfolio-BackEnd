@@ -42,4 +42,8 @@ public class ImpPersonaService {
      public boolean existsByNombre(String nombre){
          return ipersonaRepository.existsByNombre(nombre);
      }
+
+    public boolean existsByNombreE(String nombreE) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }

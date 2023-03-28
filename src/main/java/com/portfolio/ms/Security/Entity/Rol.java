@@ -17,7 +17,7 @@ import javax.validation.constraints.NotNull;
 @Entity
 public class Rol {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     @NotNull
     @Enumerated(EnumType.STRING)
