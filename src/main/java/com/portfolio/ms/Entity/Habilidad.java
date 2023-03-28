@@ -9,7 +9,7 @@ import javax.persistence.Id;
 @Entity
 public class Habilidad {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String nombreH;
     private float porcentaje;
